@@ -14,7 +14,7 @@ def convert_webp_to_png(source_path, target_path):
         img.save(target_path, 'PNG')
 
 def main():
-    source_directory = 'discord_Midjorneyv6'  # Directory where the .webp images are located
+    source_directory = 'unzipped_content/discord_Midjorneyv6'  # Directory where the .webp images are located
     target_directory = 'png_images'  # Directory to save the .png images
     os.makedirs(target_directory, exist_ok=True)
 
